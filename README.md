@@ -3,11 +3,10 @@
 
 A local-first, graph-orchestrated research agent that combines search-engine discovery, Reddit context, structured URL selection, targeted post retrieval, and evidence-aware LLM synthesis.
 
-Explore the project
 
 
-<details>
-<summary><strong>🔍 Technology stack</strong> — click to expand</summary>   
+
+ 
 
 </details> <details>
 <summary><strong>🧭 Quick navigation</strong> — click an icon to jump</summary>   
