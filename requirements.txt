@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+qdrant-client
+sentence-transformers
+rank-bm25
+deepeval
+httpx
+pytest
+langchain
+langchain-ollama
+langchain-chroma
+pandas
