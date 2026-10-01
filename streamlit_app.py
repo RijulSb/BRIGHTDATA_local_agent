@@ -16,7 +16,7 @@ st.set_page_config(
 )
 
 st.title("🔍 KenByte Research Agent")
-st.caption("Multi-source AI research powered by Google + Reddit")
+st.caption("Multi-source AI research powered by Google + Reddit + BRIGHTDATA")
 
 @st.cache_resource(show_spinner="Loading agent...")
 def load_graph():
