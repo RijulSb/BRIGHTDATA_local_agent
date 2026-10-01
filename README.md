@@ -1,7 +1,45 @@
-Multi-Source Research Analysis Agent
+<strong>Multi-Source Research Analysis Agent</strong>
 
 
 A local-first, graph-orchestrated research agent that combines search-engine discovery, Reddit context, structured URL selection, targeted post retrieval, and evidence-aware LLM synthesis.
+
+Explore the project
+
+
+<details>
+<summary><strong>🔍 Technology stack</strong> — click to expand</summary>   
+
+</details> <details>
+<summary><strong>🧭 Quick navigation</strong> — click an icon to jump</summary>   
+
+Section
+What you will find
+🎯
+The problem
+The research and engineering gap this agent addresses
+🧠
+LLM strategy
+Multi-pass reasoning, structured output, and evaluation guidance
+🔀
+Architecture
+The parallel search and synthesis graph
+🛠️
+Tool reference
+Responsibilities and boundaries for every tool
+🛡️
+Security
+Current controls and production hardening
+✅
+Quality gates
+Formatting, linting, typing, tests, and dependency scanning
+🚀
+Roadmap
+The path from prototype to production
+
+
+
+
+</details>
 
 Why this project exists
 
@@ -288,20 +326,6 @@ get_synthesis_messages(...) — combines both analysis streams into a final answ
 
 This separation makes prompts versionable, reviewable, unit-testable, and easier to evaluate independently from graph mechanics.
 
-Code structure
-
-The current repository snapshot contains main.py. The imports indicate the following intended modular structure:
-
-Plain Text
-
-
-.
-├── main.py                 # CLI, state schema, graph nodes, graph compilation
-├── web_operations.py       # Search and Reddit retrieval adapters
-├── prompts.py              # Prompt construction and source-specific instructions
-├── requirements.txt        # Python dependencies (recommended)
-├── .env.example            # Documented configuration keys (recommended)
-└── README.md               # Architecture, setup, operations, and quality guidance
 
 
 
